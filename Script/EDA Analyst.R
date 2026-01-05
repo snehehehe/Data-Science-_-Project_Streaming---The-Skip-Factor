@@ -12,3 +12,4 @@ ggplot(data, aes(energy, fill = skip_30s)) +
 ggplot(data, aes(skip_30s, loudness)) +
   geom_boxplot() +
   theme_minimal()
+
